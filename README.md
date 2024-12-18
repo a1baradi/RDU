@@ -1,6 +1,16 @@
 # Introduction
 RDU (Remove Duplicate URLs) is a lightweight command-line tool designed to efficiently remove duplicate URLs and URLs of the same category. It simplifies URL management, ensuring you only work with unique and relevant links.
 
+# Features
+
+Remove Duplicate URLs: Automatically detects and removes exact duplicates.
+
+Category Filtering: Identifies URLs of the same category (e.g., domain-level similarity) and removes duplicates based on rules.
+
+Efficient and Fast: Handles large URL lists with ease.
+
+Simple Command-Line Interface: Easy to integrate into your workflow.
+
 # Why Choose RDU Tool?
 
 In the world of duplicate URL management, many tools require installation via complex ecosystems like brew, Go, or even pip. While these solutions work, they often introduce compatibility issues, dependency conflicts, and environmental constraints. RDU Tool takes a different approach, offering a simple, robust, and reliable solution designed to work seamlessly in any Unix-like environment.
