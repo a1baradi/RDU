@@ -73,6 +73,4 @@ wget https://raw.githubusercontent.com/D3fu1t/RDU/refs/heads/main/rdu;chmod +x r
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This ensures users are aware of the license terms when using or contributing to your tool.
-
 
