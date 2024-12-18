@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Declare an associative array to store unique URLs (requires bash 4.0+)
+declare -A unique_urls
+
+# Function to normalize URLs by removing duplicates
+normalize_urls() {
+    while IFS= read -r url; do
+        # Skip empty lines
+        if [[ -z "$url" ]]; then
+            continue
+        fi
+
+        # Normalize the URL by stripping query parameters for duplicate checking
+        normalized_url=$(echo "$url" | sed 's/[?&][^=]*=[^&]*//g')
+
+        # Ensure the normalized URL is not empty
+        if [[ -n "$normalized_url" ]]; then
+            # Store the original URL in the associative array
+            unique_urls["$normalized_url"]="$url"
+        fi
+    done
+}
+
+# Read URLs from stdin and normalize them
+normalize_urls
+
+# Output the unique URLs
+for url in "${unique_urls[@]}"; do
+    echo "$url"
+done
