@@ -32,10 +32,11 @@ Basic Example
 
 Use the following command to process URLs from a file:
 
+```
 cat urls.txt | rdu
+```
 
-
-Input File (urls.txt)
+Input File (urls.txt):
 
 https://example.com
 https://example.com
