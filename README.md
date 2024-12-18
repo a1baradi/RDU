@@ -9,7 +9,7 @@ Built Entirely in Bash
 
 RDU Tool is completely written in Bash, making it lightweight, portable, and independent of any programming language or package manager. Here’s why that matters:
 
-# 1. No Dependency Nightmares:
+# 1.No Dependency Nightmares:
 Tools installed via pip can lead to Python environment conflicts, especially when working on systems where multiple projects require different Python versions or dependencies. With RDU Tool, all you need is Bash, which is available on nearly every Unix-based system by default.
 
 # 2. Cross-Platform Compatibility:
