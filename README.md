@@ -12,14 +12,11 @@ RDU Tool is completely written in Bash, making it lightweight, portable, and ind
 # 1. No Dependency Nightmares:
 Tools installed via pip can lead to Python environment conflicts, especially when working on systems where multiple projects require different Python versions or dependencies. With RDU Tool, all you need is Bash, which is available on nearly every Unix-based system by default.
 
-
 # 2. Cross-Platform Compatibility:
 Unlike Go or other language-specific tools, RDU runs directly in the terminal without requiring additional installations or runtime configurations. If Bash is installed (which it almost always is), RDU works flawlessly.
 
-
 # 3. Error-Free Operation:
 Dependency managers like brew or pip sometimes fail due to missing libraries, outdated systems, or restricted environments. RDU bypasses all of these hurdles, ensuring reliable operation without external interference.
-
 
 # 4. Simple Setup:
 There’s no need for compilers, package managers, or virtual environments.
@@ -28,9 +25,7 @@ There’s no need for compilers, package managers, or virtual environments.
 Whether you’re working on Linux, macOS, or even Windows with WSL, RDU runs seamlessly. No extra tools, no extra hassle.
 
 
+# Onliner Installation : 
 
-When Simplicity Meets Efficiency
-
-RDU is the perfect choice for users who value simplicity, reliability, and a tool that just works. It avoids the overhead of unnecessary dependencies while delivering high performance and precision in URL deduplication and categorization.
-
-If you believe in solving problems without creating new ones, RDU Tool is the tool for you.
+```bash
+wget https://raw.githubusercontent.com/D3fu1t/RDU/refs/heads/main/rdu;chmod +x rdu;mv rdu /usr/bin
