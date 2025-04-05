@@ -67,7 +67,7 @@ https://sub.example.com
 # Onliner Installation : 
 
 ```bash
-wget https://raw.githubusercontent.com/D3fu1t/RDU/refs/heads/main/rdu;chmod +x rdu;mv rdu /usr/bin
+wget https://raw.githubusercontent.com/a1baradi/RDU/refs/heads/main/rdu;chmod +x rdu;mv rdu /usr/bin
 ```
 ## License  
 
