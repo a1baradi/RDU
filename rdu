@@ -3,7 +3,7 @@
 # Display banner
 echo "RDU"
 echo "---"
-echo "Made By D3fu1t"
+echo "Made By Al Baradi Joy"
 echo
 
 # Declare an associative array to store unique URLs (requires bash 4.0+)
